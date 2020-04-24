@@ -10,7 +10,7 @@ import { t } from "../i18next_wrapper";
 /** Dynamically change the meta title of the page. */
 export function updatePageInfo(pageName: string) {
   if (pageName === "designer") { pageName = "Farm Designer"; }
-  document.title = `${t(capitalize(pageName))} - FarmBot`;
+  document.title = `${t(capitalize(pageName))} - Factop`;
   // Possibly add meta "content" here dynamically as well
 }
 
