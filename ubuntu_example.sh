@@ -1,16 +1,16 @@
-# How to install FarmBot Web API on a Fresh Ubuntu 18.10 Machine
+# How to install Facetop Web API on a Fresh Ubuntu 18.10 Machine
 
-# IMPORTANT NOTE: Resources are limited and Farmbot, inc. cannot provide
+# IMPORTANT NOTE: Resources are limited and EARTH, inc. cannot provide
 # longterm support to self-hosted users. If you have never administered a
 # Ruby on Rails application, we highly advise stopping now. this presents an
 # extremely high risk of data loss. Free hosting is provided at
-# https://my.farm.bot and eliminates the risks and troubles of self-hosting.
+# https://my.facetop.earth and eliminates the risks and troubles of self-hosting.
 #
-# You are highly encouraged to use the my.farm.bot servers. Self hosted
+# You are highly encouraged to use the my.facetop.earth servers. Self hosted
 # documentation is provided with the assumption that you have experience with
 # Ruby/Javascript development.
 #
-# Self-hosting a Farmbot server is not a simple task.
+# Self-hosting a Facetop server is not a simple task.
 
 # Remove old (possibly broke) docker versions
 sudo apt-get remove docker docker-engine docker.io
@@ -28,11 +28,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 # Install Facetop Web App
 # ⚠ SKIP THIS STEP IF UPGRADING!
-git clone https://github.com/FarmBot/Farmbot-Web-App --depth=5 --branch=master
+git clone https://github.com/EarthEngineering/my.facetop.earth --depth=5 --branch=master
 
-cd Farmbot-Web-App
+cd Facetop-Web-App
 
-snap install micro --classic # Don't like `micro`? vim, nano, etc are fine, too.
+apt-get install vim
 cp example.env .env # ⚠ SKIP THIS STEP IF UPGRADING!
 
 # == This is a very important step!!! ==
@@ -41,7 +41,7 @@ cp example.env .env # ⚠ SKIP THIS STEP IF UPGRADING!
 #
 # == Nothing will work if you skip this step!!! ==
 
-micro .env          # ⚠ SKIP THIS STEP IF UPGRADING!
+vim .env          # ⚠ SKIP THIS STEP IF UPGRADING!
 # ^ This is the most important step
 # READ NOTE ABOVE. Very important!
 
@@ -78,10 +78,10 @@ sudo docker-compose run -e RAILS_ENV=test web rspec spec
 sudo docker-compose run web npm run test
 
 # === BEGIN OPTIONAL UPGRADES
-  # To update to later versions of FarmBot,
+  # To update to later versions of Facetop,
   # shut down the server, create a database backup
   # and run commands below.
-  git pull https://github.com/FarmBot/Farmbot-Web-App.git master
+  git pull https://github.com/EarthEngineering/my.facetop.earth.git master
   sudo docker-compose build
   sudo docker-compose run web bundle install   # <== ⚠ UPGRADE USERS ONLY
   sudo docker-compose run web npm install      # <== ⚠ UPGRADE USERS ONLY
