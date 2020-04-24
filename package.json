@@ -23,7 +23,7 @@
     "IoT",
     "EARTH"
   ],
-  "author": "Gabriel Cardona <gabriel.earth.engineering@gmail.com>",
+  "author": "EARTH Engineering",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "7.9.0",

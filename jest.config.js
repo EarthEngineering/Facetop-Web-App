@@ -11,8 +11,8 @@ module.exports = {
     },
     "globalConfig": {
       "NODE_ENV": "development",
-      "TOS_URL": "https://farm.bot/tos/",
-      "PRIV_URL": "https://farm.bot/privacy/",
+      "TOS_URL": "http://www.facetop.earth/tos/",
+      "PRIV_URL": "http://www.facetop.earth/privacy/",
       "LONG_REVISION": "------------",
       "SHORT_REVISION": "--------"
     }
