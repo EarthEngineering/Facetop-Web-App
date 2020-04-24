@@ -6,10 +6,7 @@ export const LaptopSplash = ({ className }: { className: string }) =>
     <div className="perspective-container">
       <div className="laptop">
         <div className="laptop-screen">
-          <video muted autoPlay loop>
-            <source src={ExternalUrl.Video.desktop} type="video/mp4" />
-          </video>
-          <span className="laptop-shine" />
+          <img src="http://www.facetop.earth/assets/facetop-tech-stack.png" alt="facetop stack" />
         </div>
         <div className="laptop-keyboard">
           <div className="laptop-keys">

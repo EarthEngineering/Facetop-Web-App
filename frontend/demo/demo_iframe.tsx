@@ -60,9 +60,7 @@ export class DemoIframe extends React.Component<{}, State> {
   ok = () => {
 
     return <div className="demo-container">
-      <video muted={true} autoPlay={true} loop={true} className="demo-video">
-        <source src={ExternalUrl.Video.desktop} type="video/mp4" />
-      </video>
+      <img src="http://www.facetop.earth/assets/facetop-tech-stack.png" alt="facetop stack" />
       <img className="demo-phone" src={ExternalUrl.Video.mobile} />
       <button className="demo-button"
         title={t("demo the app")}
