@@ -472,7 +472,7 @@ export namespace Content {
     and features at your fingertips.`);
 
   export const READ_THE_DOCS =
-    trim(`The FarmBot web app is a powerful tool that allows you to control
+    trim(`The Facetop Web App is a powerful tool that allows you to control
     and configure your FarmBot in any way you want. To give you so much power,
     we've packed the app with a ton of settings, features, and pages, which
     can be a lot to understand. That's why we've created comprehensive written
@@ -497,7 +497,7 @@ export namespace Content {
     table below.`);
 
   export const DEMO_ACCOUNT =
-    trim(`Thanks for trying out the FarmBot web app!
+    trim(`Thanks for trying out the Facetop Web App!
     This is a great way to introduce yourself to building sequences,
     regimens, events, and designing a virtual garden.`);
 
@@ -710,7 +710,7 @@ export namespace Content {
     app. This feature may disappear or break at any time.`);
 
   export const FORCE_REFRESH_CONFIRM =
-    trim(`A new version of the FarmBot web app has been released.
+    trim(`A new version of the Facetop Web App has been released.
     Refresh page?`);
 
   export const FORCE_REFRESH_CANCEL_WARNING =

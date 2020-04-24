@@ -7,7 +7,7 @@ class UserMailer < ApplicationMailer
     @user = user
     @user_name = user.name
     @the_url = UserMailer.reset_url(user)
-    mail(to: @user.email, subject: "Welcome to The FarmBot Web App!")
+    mail(to: @user.email, subject: "Welcome to The Facetop Web App!")
   end
 
   def password_reset(user, raw_token)

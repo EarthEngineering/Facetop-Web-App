@@ -1,4 +1,4 @@
-# FarmBot Web App
+# Facetop Web App
 [![codebeat badge](https://codebeat.co/badges/7f81859b-67fe-4bdb-b56f-050bfed35e9c)](https://codebeat.co/projects/github-com-farmbot-farmbot-web-app-staging)
 [![codecov](https://codecov.io/gh/FarmBot/Farmbot-Web-App/branch/master/graph/badge.svg)](https://codecov.io/gh/FarmBot/Farmbot-Web-App)
 [![Coverage Status](https://coveralls.io/repos/github/FarmBot/Farmbot-Web-App/badge.svg)](https://coveralls.io/github/FarmBot/Farmbot-Web-App)
@@ -26,7 +26,7 @@ We do not have the resources available to help novice developers learn to setup 
 
 We take security seriously and value the input of independent researchers. Please see our [responsible disclosure guidelines](https://farm.bot/responsible-disclosure-of-security-vulnerabilities/).
 
-# Q: What is the Farmbot Web App?
+# Q: What is the Facetop Web App?
 
 This repo contains FarmBot's web based user interface, a RESTful JSON API and a Dockerized MQTT server. The API stores data such as user account information, plant data, authorization tokens and a variety of other resources. The MQTT server facilitates realtime messaging from the browser to the device.
 
@@ -56,7 +56,7 @@ See `example.env` for a list of all the variables that must be set.
 
 # Translating the Web App into Your Language
 
-Thanks for your interest in internationalizing the FarmBot web app! To add translations:
+Thanks for your interest in internationalizing the Facetop Web App! To add translations:
 
 1. Fork this repo
 0. Navigate to `/public/app-resources/languages` and run the command `node _helper.js yy` where `yy` is your language's [language code](http://www.science.co.il/Language/Locale-codes.php). Eg: `ru` for Russian.

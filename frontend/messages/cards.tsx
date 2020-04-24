@@ -282,7 +282,7 @@ const UserNotWelcomed = (props: CommonAlertCardProps) =>
   <AlertCardTemplate
     alert={props.alert}
     className={"user-not-welcomed-alert"}
-    title={t("Welcome to the FarmBot Web App")}
+    title={t("Welcome to the Facetop Web App")}
     message={t(Content.WELCOME)}
     timeSettings={props.timeSettings}
     dispatch={props.dispatch}

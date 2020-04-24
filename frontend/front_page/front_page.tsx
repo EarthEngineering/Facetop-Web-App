@@ -218,7 +218,7 @@ export class FrontPage extends React.Component<{}, Partial<FrontPageState>> {
             {t("Welcome to the")}
             <br className={showFor(["xs"])} />
             &nbsp;
-              {t("FarmBot Web App")}
+              {t("Facetop Web App")}
           </h1>
         </Col>
       </Row>
@@ -227,7 +227,7 @@ export class FrontPage extends React.Component<{}, Partial<FrontPageState>> {
         <Row>
           <h2 className="text-center">
             <Col xs={12}>
-              {t("Setup, customize, and control FarmBot from your")}
+              {t("Setup, customize, and control Facetop from your")}
               &nbsp;
               <span className={showFor(["md", "lg", "xl"])}>
                 {t("computer")}
