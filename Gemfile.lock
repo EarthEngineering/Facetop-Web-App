@@ -204,7 +204,7 @@ GEM
       faraday_middleware (>= 0.13.0, < 1)
       hashie (~> 3.6)
       multi_json (~> 1.13.1)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-attack (6.2.2)
       rack (>= 1.0, < 3)
     rack-cors (1.1.1)
