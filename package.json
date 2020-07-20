@@ -50,7 +50,7 @@
     "farmbot": "10.0.0-rc1",
     "i18next": "19.4.1",
     "install": "0.13.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "markdown-it": "10.0.0",
     "markdown-it-emoji": "1.4.0",
     "moment": "2.24.0",
